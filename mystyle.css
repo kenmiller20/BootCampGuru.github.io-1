@@ -1,0 +1,50 @@
+h1{
+	background-color: rgb(0,0,0);
+	color:orange;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img{
+
+	float:left;
+       
+}
+
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clear{
+
+	clear: both;
+}
+
+div.textdiv {
+	border-color:black;
+	border-style:solid;
+	border-width:5px;
+	overflow: auto;
+}
+
+p.p1style{
+ margin: 120px;
+}
+
+footer
+{
+   text-align: center;
+}
+
+.frame{
+
+	border-style: solid;
+	border-width: 5px;
+	border-color: orange;
+	margin:5px;
+	padding:10px;
+
+}
