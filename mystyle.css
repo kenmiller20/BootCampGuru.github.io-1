@@ -30,8 +30,14 @@ div.textdiv {
 	overflow: auto;
 }
 
-p.p1style{
- margin: 120px;
+p{
+ margin-left: 120px;
+ border-color:red;
+ border-style: solid;
+ border-width:1px;
+ padding: 20px;
+ text-align: center;
+ 
 }
 
 footer
@@ -42,7 +48,7 @@ footer
 .frame{
 
 	border-style: solid;
-	border-width: 5px;
+	border-width: 2px;
 	border-color: orange;
 	margin:5px;
 	padding:10px;
