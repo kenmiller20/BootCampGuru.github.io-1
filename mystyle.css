@@ -7,7 +7,13 @@ body {
 }
 
 
-.container {
+
+h1,h3,h4,h5,h6,p{
+font-family: 'PT Sans', sans-serif;
+}
+
+
+.container1 {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -118,12 +124,64 @@ section{
 }
 
 .social {
-  width: 128px;
-  height: 128px;
-  margin-top: 8px;
-  margin-right: 5px;
+  width: 108px;
+  height: 108px;
+  margin-top : 10px;
 }
 
+
+/* paragraph 1 */
+.thought1 {
+  font-weight: bolder;
+}
+
+/* paragraph 2 */
+.thought2 {
+  font-size: 24px;
+}
+
+/* paragraph 3 */
+.thought3 {
+  line-height: 50px;
+}
+
+
+
+
+/**
+ * CSS Pseudo-Classes Demo
+ **/
+
+/* Normal Element Rule */
+a {
+  font-size: 14px;
+}
+
+/* Hover Pseudo Class:
+    Changes the style only when mouse hovers
+    over the preceding element.
+*/
+a:hover {
+  background-color: red;
+}
+
+/* Focus Pseudo Class
+    Changes the style only when browser
+    gives the element focus
+    (in this case, after the link is clicked).
+*/
+a:focus {
+  background-color: orange;
+}
+
+/* Active Pseudo Class
+    Changes the style only while the user
+    clicks down on an element. This style ceases
+    when the user releases their click.
+*/
+a:active {
+  background-color: black;
+}
 
 
 
