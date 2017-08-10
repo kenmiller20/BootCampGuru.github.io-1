@@ -111,7 +111,8 @@ section{
   width: 100%;
   max-width: 150px;
   padding: 30px;
-  margin : 120px 120px;
+  margin-top : 100px;
+  margin-right: 620px;
   background: url("assets/images/aside.jpg");
   border: 1px solid #ddd;
 }
