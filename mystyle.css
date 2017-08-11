@@ -187,4 +187,29 @@ a:active {
 
 
 
+/*
+color the box
+
+*/
+
+#mybox{
+
+    border: 2px solid red;
+    border-radius: 5px;
+    width:100px;
+    height:100px;
+    background-color: gray;
+    color:White;
+   position: absolute;
+  background-color: green;
+}
+
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: brown;
+}
+
+
 
