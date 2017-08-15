@@ -49,3 +49,11 @@ else
 }
  console.log("I wrote something in the console log too");
 }
+
+//Calculates adding two number
+
+function calculateAdd(x1, x2)
+{
+
+document.write(x1 + x2);
+}
