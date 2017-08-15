@@ -26,9 +26,26 @@ function myFunction() {
 }
 
 
-function resetthis() 
+function resetThis() 
 {
     document.getElementById("mybox").innerHTML = "Move Me";
     document.getElementById("mybox").style.left = "0px";
      document.getElementById("mybox").style.top = "0px";
+}
+
+function writeThis()
+{
+ 
+var name = prompt("what is your name");
+var handle = confirm("can you handle javascript?");
+
+if(handle == true)
+{
+ document.getElementById("txtWriter").value = "Great " + name + " !";
+}
+else
+{
+ document.getElementById("txtWriter").value = "No Worries! " + name + " You will soon:)";
+}
+ console.log("I wrote something in the console log too");
 }
