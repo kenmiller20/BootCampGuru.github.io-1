@@ -211,5 +211,12 @@ color the box
   background: brown;
 }
 
+#txtWriter{
+
+  width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
 
 
